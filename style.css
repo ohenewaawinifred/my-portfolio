@@ -1,0 +1,164 @@
+body {
+  background-color: #f0f2f5;
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  padding: 50px;  
+}
+
+.profile-card {
+  background: white;
+  border-radius: 10px;
+  padding: 30px;
+  max-width: 400px;
+  text-align: center;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);  
+}
+
+.profile-pic {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 15px;  
+}
+
+.title {
+  color: #1877f2;
+  font-weight: bold;
+  margin-bottom: 10px;  
+}
+
+.ul li {
+  padding: 5px 0;  
+}
+
+.socials a {
+  text-docoration: none;
+  color: white;
+  background-color: #1877f2;
+  padding: 10px 15px;
+  margin: 5px;
+  border-radius: 5px;
+  display: inline-block;
+  font-size: 14px;  
+}
+
+.about-me {
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 10px;
+  margin-top: 30px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.05);
+  text-align: left;  
+} 
+
+.about-me h2 {
+  color: #1877f2;
+  margin-bottom: 15px;  
+}
+
+.about-me p {
+  margin-bottom: 15px;
+  line-height: 1.6;
+  color: #333  
+}
+
+.my-goals {
+  background-color: #e7f3ff;
+  padding: 25px;
+  margin-top: 30px;
+  border-radius: 10px;  
+}
+
+.my-goals h2 {
+  color: #1877f2;
+  margin-bottom: 15px;  
+}
+
+.my-goals ul {
+  list-style: disc;
+  padding-left: 20px;  
+}
+
+.my-goals li {
+  margin-bottom: 10px;
+  color: #333;  
+}
+
+.fun-facts { 
+  background-color: #fff7e6;
+  padding: 25px;
+  margin-top: 30px;
+  border-radius: 10px;
+}
+
+.fun-facts h2 {
+  color: #ff9900;
+  margin-bottom: 15px;  
+}
+
+.fun-facts ul {
+  list-style: square;
+  padding-left: 20px;  
+}
+
+.fun-facts li {
+  margin-bottom: 10px;
+  color: #333;  
+}
+
+footer p {
+ margin-top: 20px;
+ font-size: 12px;
+ color: gray;
+ font-style: italic;   
+}
+
+.contact-me {
+  background-color: #f0f2f5;
+  padding: 25px;
+  border-radius: 10px;
+  margin-top: 30px;
+  text-align: center;
+}
+
+.contact-me h2 {
+  color: #1877f2;
+  margin-bottom: 10px;
+}
+
+.contact-links a {
+  display: inline-block;
+  margin: 8px;
+  padding: 10px 15px;
+  background-color: #1877f2;
+  color: white;
+  border-radius:5px;
+  text-decoration: none;
+  transition: background-color 0.3s;
+}
+
+.contact-links a:hover {
+  background-color: #0d65d9;
+}  
+
+.portfolio-header {
+  background-color: #1877f2;
+  color: white;
+  padding: 30px;
+  text-align: center;
+  border-radius: 10px;
+  margin-bottom: 30px; 
+}
+
+.portfolio-header h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.portfolio-header p {
+  font-size: 16px;
+  font-style: italic;
+}
+  
